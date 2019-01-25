@@ -1,0 +1,19 @@
+
+[    
+    {
+        "id":1
+    },
+    {
+        "id":2
+    },
+    {
+        "id":3
+    },
+    {
+        "id":4
+    }
+]
+declare module "*.json" {
+    const value: any;
+    export default value;
+ }
